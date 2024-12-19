@@ -1,0 +1,22 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+   }
+   
+   input[type="file"] {
+    cursor: pointer;
+   }
+   
+   .photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   
+   .photos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+   }
+   

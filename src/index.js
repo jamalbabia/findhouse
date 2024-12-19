@@ -1,17 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { Auth0Provider } from '@auth0/auth0-react';
+import thunk from 'redux-thunk';
+import { Provider } from 'react-redux';
+import { applyMiddleware } from 'redux';
+import {composeWithDevTools } from 'redux-devtools-extension'
+import { legacy_createStore as createStore } from 'redux';
+import reducer from './redux/reducer';
+
+const store=createStore(reducer,composeWithDevTools(applyMiddleware(thunk)))
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <Provider store={store}>
+<Auth0Provider
+    domain="dev-8uyp1hags2o3t5if.us.auth0.com"
+    clientId="VutahjqaJZNZ3JOz04EIZoaGgIctS5bA"
+    authorizationParams={{
+      redirect_uri: window.location.origin
+    }}
+    >
     <App />
-  </React.StrictMode>
+  </Auth0Provider>,
+    </Provider>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

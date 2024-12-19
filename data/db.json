@@ -1,0 +1,38 @@
+{
+    "houses":[{"id":1,"location":"Larbaa Beni Hassen, Tanger-Tétouan, Morocco","photo":"1.jpg","prix":5000,"day":1},
+    {"id":2,"location":"Chefchaouen, Tangier-Tétouan-Al Hoceima, Morocco","photo":"2.jpg","prix":5000,"day":2},
+    {"id":3,"location":"Rabat, Morocco","photo":"1.jpg","prix":5000,"day":3},
+    {"id":4,"location":"Casablanca, Morocco","photo":"2.jpg","prix":5000,"day":4},
+    {"id":5,"location":"Marrakech, Morocco","photo":"1.jpg","prix":5000,"day":5},
+    {"id":6,"location":"Tinghir, Morocco","photo":"2.jpg","prix":5000,"day":6},
+    {"id":7,"location":"Rabat, Morocco","photo":"1.jpg","prix":5000,"day":7},
+    {"id":2,"location":"Chefchaouen, Tangier-Tétouan-Al Hoceima, Morocco","photo":"2.jpg","prix":5000,"day":2},
+    {"id":3,"location":"Rabat, Morocco","photo":"1.jpg","prix":5000,"day":3},
+    {"id":4,"location":"Casablanca, Morocco","photo":"2.jpg","prix":5000,"day":4},
+    {"id":5,"location":"Marrakech, Morocco","photo":"1.jpg","prix":5000,"day":5},
+    {"id":6,"location":"Tinghir, Morocco","photo":"2.jpg","prix":5000,"day":6},
+    {"id":7,"location":"Rabat, Morocco","photo":"1.jpg","prix":5000,"day":7},
+    {"id":2,"location":"Chefchaouen, Tangier-Tétouan-Al Hoceima, Morocco","photo":"2.jpg","prix":5000,"day":2},
+    {"id":3,"location":"Rabat, Morocco","photo":"1.jpg","prix":5000,"day":3},
+    {"id":4,"location":"Casablanca, Morocco","photo":"2.jpg","prix":5000,"day":4},
+    {"id":5,"location":"Marrakech, Morocco","photo":"1.jpg","prix":5000,"day":5},
+    {"id":6,"location":"Tinghir, Morocco","photo":"2.jpg","prix":5000,"day":6},
+    {"id":7,"location":"Rabat, Morocco","photo":"1.jpg","prix":5000,"day":7},
+    {"id":8,"location":"Marrakech, Morocco","photo":"2.jpg","prix":5000,"day":8}],
+    "users":[{"id":1,"nom":"jamal"}],
+    "accordion":[
+        {"icon":"bi bi-shield-check",
+        "heading":"best interest rates on the market",
+        "detail":"Exercitation in fugiat est ut ad ea cupidatat ut cupidatat accaecat ut conseque"
+        },
+        {"icon":"bi bi-shield-x",
+        "heading":"best interest rates on the market",
+        "detail":"Exercitation in fugiat est ut ad ea cupidatat ut cupidatat accaecat ut conseque"
+        },
+        {"icon":"bi bi-clipboard2-data",
+        "heading":"best interest rates on the market",
+        "detail":"Exercitation in fugiat est ut ad ea cupidatat ut cupidatat accaecat ut conseque"
+        }
+    ]
+    
+}

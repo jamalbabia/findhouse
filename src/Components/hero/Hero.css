@@ -1,0 +1,136 @@
+.hero-container{
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     padding: 1.5rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.hero-wrapper{
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+    /* background-color: black; */
+}
+.hero-left{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+}
+.hero-des{
+    gap: 3rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+
+}
+.hero-title{
+   position: relative;
+   color: black;
+   z-index: 1; 
+ 
+}
+.orange-cicle{
+    height: 4rem;
+    width: 4rem;
+   background-color: rgb(219, 89, 89);
+   right: 28%;
+   top: -10px;
+   z-index:-1;
+    border-radius: 999px;
+    position: absolute;
+}
+.search-bar>input{
+    border: none;
+    outline: none;
+    width: 220px;
+    border-radius: 9px;
+}
+.search-bar{
+    background-color: rgb(219, 89, 89);
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    border: 3px solid rgba(120, 120, 120, 0.3 74);
+     padding: 0.5rem 1rem;
+     justify-content: space-between;
+     height: 50%;
+     width: 100%;
+     
+
+    
+}
+.stats{
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.stat>:nth-child(1){
+    font-size: 2rem;
+}
+.stat>:nth-child(1):last-child{
+    color: rgb(219, 89, 89);
+}
+.plus{
+    color: rgb(219, 89, 89);
+}
+.tt{
+    color: rgb(102, 98, 98);
+   
+    font-size: 0.9rem;
+}
+
+.count{
+    /* margin-right: 1rem;
+    text-align: right; */
+    color: black;
+}
+
+.stat{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.des{
+    color: rgb(88, 84, 84);
+    
+}
+.loca{
+    color: rgb(255, 255, 255);
+    size: 32;
+}
+.hero-title>h1{
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+ }
+.img1{
+    width: 30rem;
+    height: 35rem;
+    margin:     50px;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+}
+.img1>img{
+    width: 100%;
+    height: 100%;
+}
+
+    
+
+
+

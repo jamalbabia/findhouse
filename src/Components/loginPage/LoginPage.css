@@ -1,0 +1,48 @@
+body{
+    font: 1.6 helvetica;
+    font-family: helvetica;
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+}
+
+.or{
+    font-size: smaller;
+    padding: 10px 0;
+}
+.or::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(44px);
+    width: 35%;
+    height: 2px;
+    background-color: rgba(180, 177, 177, 0.454);
+
+}
+.or::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(44px);
+    right: 48px; /* Adjust the position of the line */
+    width: 35%;
+    height: 2px;
+    background-color: rgba(180, 177, 177, 0.454);
+  
+}
+.CartLogin h6{
+    padding: 10px 0px;
+    font-size: small;
+    color: rgb(159, 155, 155) ;
+}
+
+.CartLogin h4{
+    padding: 10px 0px;
+    font-weight: 500;
+}
+
+.card-header{
+    font-weight: 600;
+    padding: 15px 0;
+    background: #f0f2f5;
+}

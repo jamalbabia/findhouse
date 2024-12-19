@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+    transition: all.2s linear;
+    text-decoration: none;
+    border: none;
+}
+/* 
+nav{
+    background: #ec4848;
+    width: 100%;
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+}
+nav a {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    
+}
+nav a h3{
+    font-size: x-large;
+    font-weight: 600;
+}
+.logo{
+    width: 50px;
+}
+.user-pic{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+nav ul{
+    width: 100%;
+    text-align: right;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+}
+
+.sub-menu{
+    background: #d0cdcd;
+    padding: 20px;
+    margin: 10px;
+}
+
+.user-info{
+    background-color: #1a1a1a;
+    display: flex;
+
+    align-items: center;
+}
+.user-info h2{
+    background-color: #1a1a1a;
+    font-size: 30px;
+}
+.user-info img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+}
+
+ */
+
+
+
+
+
+
+
+
+ /* header nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background: #fff;
+    display: flex;
+    padding: 10px 8%;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+div.logo img {
+    width: 45px;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    margin: 0px 250px;
+    
+}
+.menu li a{
+    /* margin: 0 15px; */
+    /* text-decoration: none;
+}
+.menu li a , select ,option {
+    color: #3e6eda;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: 0.7s ease;
+    border-radius: 16px;
+    font-family: 'Tajawal';
+
+}
+
+header nav .auth{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+
+header nav .auth button{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;    
+    background: none;
+} */ */
+
+
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding: 10px 8%;
+    
+}
+
+header .container{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    z-index: 20;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    max-width: 100%;
+    padding: 10px 4%;
+
+}
+header .container .logo img{
+    width: 45px;
+}
+
+header .container .icon .account{
+    display: flex;
+    margin-right:15px ;
+    
+}
+header .container .icon .account .user_icon{
+    margin-right: 10px;
+    font-size: 22px;
+    color: #3e6eda;
+    cursor: pointer;
+}
+header .container .icon .account span{
+    padding: 10px;
+
+    
+}
+header .container .icon .account img{
+    width: 45px;
+    border-radius: 100%;
+}
+header .container .icon .second_icon {
+    display: flex;
+    margin-right: 5px;
+    justify-content: space-between;
+}
+header .container .icon .second_icon .link{
+    margin-right: 6px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #0989ff;
+}
+
+header .container .nav ul  {
+    display: flex;
+}
+header .container .nav ul li {
+    margin-left: 20px;
+    list-style: none;
+    
+}
+header .container .nav ul li .link {
+    text-decoration: none;
+    color: #3e6eda;
+    transition: 0.5s;
+    padding: 6px 8px;
+    
+}
+
+header .container .nav ul li .link:hover {
+    background: #3e6eda;
+    color: #fff;
+    padding: 8px 8px;
+    border-radius: 20px;
+}
+
+header .container .auth{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+header .container .auth button{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;    
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

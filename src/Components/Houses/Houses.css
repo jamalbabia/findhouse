@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+    transition: all.2s linear;
+    text-decoration: none;
+    border: none;
+}
+
+body{
+    font-family: helvetica;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.card-title{
+    font-size: 16px;
+    font-stretch: semi-condensed;
+    color: #000;
+
+}
+.card-text{
+    font-size: 14px;
+    color: rgb(155, 155, 155);
+}
+.card-link{
+    font-size: 15px;
+    color: #000;
+}
